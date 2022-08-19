@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0"/>
+        <link href="styles.css" rel="stylesheet"/>
+        <title>Learn HTML</title>
+    </head> 
+
+    <body>
+
+        <nav id="navbar">
+
+            <header>Learn HTML</header>
+
+            <div class="navLinksWithBurger">
+                
+                <div class="btnContainer">
+                    <!-- Hamburger Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+
+                    <!-- Cancel icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </div>
+            
+                <div class="navLinksContainer">
+                    <a href="#html" class="nav-link ">HTML</a>
+                    <a href="#elements_and_structure" class="nav-link">Elements and Structure</a>
+                    <a href="#tables" class="nav-link">Tables</a>
+                    <a href="#forms" class="nav-link">Forms</a>
+                    <a href="#semantic_html" class="nav-link">Semantic HTML</a>
+                    <a href="#reference" class="nav-link">Reference</a>
+                </div>
+            </div>
+
+        </nav>
+
+
+        <main id="main-doc">
+<!-- --------------------------------------HTML  SECTION------------------------------------------------------ -->
+            <section class="main-section"  id="html">
+                <header><h2>HTML</h2></header>
+
+                <article>
+                    <p>
+                        <strong>HTML</strong> stands for 
+                        <strong>H</strong>yper
+                        <strong>T</strong>ext 
+                        <strong>M</strong>arkup 
+                        <strong>L</strong>anguage:
+                    </p>
+
+                    <ul>
+                        <li><strong>HyperText</strong> means that it uses the HTTP part of the Internet</li>
+                        <li><strong>Markup</strong> means the code you write is annotated with keywords</li>
+                        <li><strong>Language</strong> means it can be read by both a human and a computer</li>
+                    </ul>
+
+                    <p>
+                        Think of HTML (HyperText Markup Language) 
+                        as the skeleton of the web page.
+                        It is used to give content to a web page 
+                        and instructs web browsers on how 
+                        to structure that content.
+
+                    </p>
+                      
+                    
+
+                </article>
+            </section>
+<!-- --------------------------------------ELEMENT STRUCTURE SECTION------------------------------------------------------ -->
+            <section class="main-section" id="elements_and_structure">
+                <header><h2>Elements and Structure</h2></header>
+
+                <!-- HTML STRUCTURE -->
+                <div class="sub-section html-structure">
+                    <div class="sub-section-left">
+                        <h2>HTML STRUCTURE</h2>
+
+                        <p>
+                            HTML is organized into a family tree structure.
+                            HTML elements can have parents, grandparents, siblings, children, grandchildren, etc.
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                       
+                        <pre> 
+<!-- ------------------- -->&lt;body&gt;
+<!-- ------------------- -->    &lt;div&gt;
+<!-- ------------------- -->        &lt;h1&gt;It's div's child and body's grandchild&lt;/h1&gt;
+<!-- ------------------- -->        &lt;h2&gt;It's h1's sibling&lt;/h2&gt;
+<!-- ------------------- -->    &lt;/div&gt;
+<!-- ------------------- -->&lt;/body&gt;
+                        </pre>   
+                        
+                    </div>
+                </div>
+
+
+
+
+                <!-- OPENING TAG -->
+                <div class="sub-section opening-tag">
+                    <div class="sub-section-left">
+                        <h2>Opening Tag</h2>
+
+                        <p>
+                           An opening tag denote the beginning of an HTML element.
+                           It is made up of the element's symbol wrapped in left and right angle brackets.
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                       <pre><code>&lt;p&gt;</code></pre>
+                       <pre><code>&lt;div&gt;</code></pre>
+                       <pre><code>&lt;section&gt;</code></pre>
+                       
+                    </div>
+                </div>
+
+
+                <!-- CLOSING TAG -->
+                <div class="sub-section closing-tag">
+                    <div class="sub-section-left">
+                        <h2><code>Closing Tag</code></h2>
+
+                        <p>
+                           A closing tag denote the end of an HTML element.
+                           The syntax for a closing tag is a left angle bracket
+                           &lt; followed by a forward slash / then the element name 
+                           and a right angle bracket to close &gt;.
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+            
+                        <pre>
+                            <code>
+<!-- ------------------- -->    &lt;/p&gt
+<!-- ------------------- -->    &lt;/div&gt;
+<!-- ------------------- -->    &lt;/section&gt;
+
+
+
+                            </code>
+                        <pre>
+                        
+                    </div>
+                </div>
+
+                
+                <!-- ELEMENT CONTENT -->
+                <div class="sub-section">
+                    <div class="sub-section-left">
+                        <h2>Element Content</h2>
+
+                        <p>
+                            The content of an element is the information between the opening and closing tags of an element.
+                            This may be text and/or other HTML elements.
+                            This is everything a user is able to see on the website (as you are seeing right now).  
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre><code>&lt;p&gt; Element content goes here &lt;/p&gt;</code></pre>
+                    </div>
+                </div>
+
+
+
+                <!-- HTML ATTRIBUTE-->
+                <div class="sub-section html-attribute">
+                    <div class="sub-section-left">
+                        <h2>HTML Attribute</h2>
+
+                        <p>
+                            Attributes are extra information tied to an HTML element.
+                            It adds meaning to the HTML element it's attached to.
+                            It lives inside the opening tag of an HTML element.
+                            The attribute name comes first, then an equal sign, 
+                            then the “value” of the attribute in either single or double quotation marks. 
+                            For an anchor element, the href attribute helps determine where the user goes
+                            when the content between the tags of the anchor element is been clicked.
+                            
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre><code>&lt;a href="#"&gt;MALIK MUHAMMED&lt;/a&gt;</code></pre>   
+                    </div>
+
+                </div>
+                
+
+
+                <!-- HTML ELEMENT-->
+                <div class="sub-section html-element">
+                    <div class="sub-section-left">
+                        <h2>HTML Element</h2>
+
+                        <p>
+                            An HTML element is a piece of content in an HTML document and 
+                            uses the following syntax: 
+                            opening tag + content + closing tag. 
+
+                            <ul>
+                                <li> <code>&lt;p&gt;</code> the opening tag.</li>
+                                <li>Hello World! is the content.</li>
+                                <li><code>&lt;/p&gt;</code> the closing tag.</li>
+                            </ul>
+                            
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <p><code>&lt;p&gt;Hello World! &lt;/p&gt;</code></p>
+                        <p><code>&lt;p&gt;HTML element&lt;/p&gt;</code></p>
+                    </div>
+
+                </div>
+
+                <!-- PARAGRAPH ELEMENT -->
+                <div class="sub-section div-element ">
+                    <div class="sub-section-left">
+                        <h2>&lt;p&gt; Paragraph Element</h2>
+
+                        <p>
+                            The <code>&lt;p&gt;</code> element contains and display a block of text.    
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <p>
+                            <code>
+                                 &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quasi.&lt;/p&gt;
+                            </code>
+                        </p>
+                            
+                        
+                    </div>
+
+                </div>
+
+
+                <!-- <h1>-<h6> HEADING ELEMENT -->
+                <div class="sub-section div-element ">
+                    <div class="sub-section-left">
+                        <h2>&lt;h1&gt; to &lt;h6&gt; Heading Element</h2>
+
+                        <p>
+                            The <code>&lt;h1&gt; to &lt;h6&gt;</code> 
+                            HTML elements represent six levels of section headings. 
+                            <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.
+                            
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">         
+                        <p><code>&lt;h1&gt;Breaking News&lt;/h1&gt;</code></p>
+                        <p><code>&lt;h2&gt;This is the 1st subheading&lt;/h2&gt;</code></p>
+                        <p><code>&lt;h3&gt;This is the 2nd subheading&lt;h3&gt;</code></p>        
+                    </div>
+                </div>
+
+                
+
+
+                <!--LIST ITEM ELEMENT  -->
+                <div class="sub-section list-item" >
+                    <div class="sub-section-left">
+                        <h2>&lt;li&gt;List Item Element</h2>
+
+                        <p>
+                            As the name implies, it is used to create a number of items listed below one another.
+                            The list may be ordered or unordered.
+                        </p>
+
+                        <ul>
+                            The <code>&lt;li&gt;</code> list item element create list items inside:
+                            <li>Ordered lists <code>&lt;ol&gt;</code></li>
+                            <li>Unordered lists <code>&lt;ul&gt;</code></li>
+                        </ul>
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre> 
+                            <code>           
+<!-- ------------------- -->&lt;ol&gt;
+<!-- ------------------- -->    &lt;li&gt;HTML&lt;/li&gt;
+<!-- ------------------- -->    &lt;li&gt;CSS&lt;/li&gt;
+<!-- ------------------- -->&lt;/ol&gt;
+                            </code>
+                        </pre>
+
+                        <pre>
+                            <code>
+<!-- ------------------- --> &lt;ul&gt;
+<!-- ------------------- -->     &lt;li&gt;HTML&lt;/li&gt;
+<!-- ------------------- -->     &lt;li&gt;CSS&lt;/li&gt;
+<!-- ------------------- --> &lt;/ul&gt;
+                            </code>
+                        </pre>
+                       
+                         
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- ORDERED LIST ELEMENT -->
+                <div class="sub-section ordered-list-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;ol&gt; Ordered List Element</h2>
+
+                        <p>
+                            It creates a list of item in sequential order.
+                            Each list item appears numbered by default.
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre>
+                            <code>
+<!-- ------------------- -->  &lt;ol&gt;
+<!-- ------------------- -->      &lt;li&gt;Preheat oven to 325 F 👩&zwj;🍳&lt;/li&gt;
+<!-- ------------------- -->      &lt;li&gt;Drop cookie dough 🍪&lt;/li&gt;
+<!-- ------------------- -->      &lt;li&gt;Bake for 15 min ⏰&lt;/li&gt;
+<!-- ------------------- --> &lt;/ol&gt;
+                            </code>
+                        </pre>
+                       
+                        
+                    </div>
+                </div>
+
+
+                <!-- UNORDERED LIST ELEMENT -->
+                <div class="sub-section unordered-list-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;ul&gt; Unordered List Element</h2>
+
+                        <p>
+                            It creates a list of items that do not have any kind of ordering be it numerical or alphabetical.
+                            It is typically a bulleted list of items and their order in the list is meaningless.
+                            
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre>
+                            <code>
+<!-- ------------------- -->&lt;ul&gt;
+<!-- ------------------- -->     &lt;li&gt;Milk&lt;/li&gt;
+<!-- ------------------- -->     &lt;li&gt;Bread&lt;/li&gt;
+<!-- ------------------- -->     &lt;li&gt;Chocolate&lt;/li&gt;
+<!-- ------------------- -->&lt;/ul&gt;
+                            </code>
+                        </pre>
+                        
+                        
+                    </div>
+                </div>
+
+
+
+                <!-- EMPHASIS ELEMENT -->
+                <div class="sub-section emphasis-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;em&gt;Emphasis Element</h2>
+
+                        <p>
+                            It defines emphasis on text and is usually rendered as italic text.   
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <p>
+                            <code>&lt;p&gt; This &lt;em&gt; word &lt;/em&gt; will be emphasized in italics. &lt;/p&gt;</code>
+                        </p>
+                    </div>
+                </div>
+
+              
+
+                <!-- DIV ELEMENT -->
+                <div class="sub-section div-element ">
+                    <div class="sub-section-left">
+                        <h2>&lt;div&gt; Div Element</h2>
+
+                        <p>
+                            The <code>&lt;div&gt;</code> element defines a division or a section in an HTML document.
+                            Any sort of content can be put inside the <code>&lt;div&gt;</code> element!
+                            
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                    
+                        <pre>
+                            <code>
+<!-- ------------------- --> &lt;div&gt;
+<!-- ------------------- -->    &lt;h1&gt;A section of grouped elements&lt;/h1&gt;
+<!-- ------------------- -->    &lt;p&gt;Here's some text for the section&lt;/p&gt;
+<!-- ------------------- --> &lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+
+                </div>
+
+
+                <!-- br ELEMENT-->
+                <div class="sub-section br-element ">
+                    <div class="sub-section-left">
+                        <h2>&lt;br&gt; Line Break Element</h2>
+
+                        <p>
+                            The <code>&lt;br&gt;</code> element defines a line break within a text.
+                            The line break element requires only an opening tag and must not have a closing tag.
+                            
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+
+                        <pre>
+                            <code>
+<!-- ------------------- -----> &lt;p&gt;
+<!-- ------------------- -->     21, Simpson Street,&lt;br&gt;
+<!-- ------------------- -->     Off Valley-Code Road, &lt;br&gt;
+<!-- ------------------- -->     Lagos, Nigeria.
+<!-- ------------------- -----> &lt;/p&gt;
+                            </code>
+                        </pre> 
+
+                    </div>
+
+
+                </div>
+
+                <!-- HEAD ELEMENT-->
+                <div class="sub-section head-element ">
+                    <div class="sub-section-left">
+                        <h2>&lt;head&gt; Head Element</h2>
+
+                        <p>
+                            The <code>&lt;head&gt;</code> element contains general information about an HTML page 
+                            that isn't displayed on the page itself.
+                            This information is called metadata and includes things like the title of the HTML document
+                            and links to stylesheets.
+                            
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        
+                        <pre>
+                            <code>
+<!-- ------------------- --> &lt;!DOCTYPE html&gt;
+<!-- ------------------- --> &lt;html&gt;
+<!-- ------------------- -->     &lt;head&gt;
+<!-- ------------------- -->         Metadata goes here
+<!-- ------------------- -->     &lt;/head&gt;
+<!-- ------------------- --> &lt;/html&gt;
+                            </code>
+                        </pre>
+      
+                    </div>
+
+                </div>
+
+
+                <!-- IMAGE ELEMENT-->
+                <div class="sub-section head-element ">
+                    <div class="sub-section-left">
+                        <h2>&lt;img&gt; Image Element</h2>
+
+                        <p>
+                            The <code>&lt;img&gt;</code> element defines an image inserted on a webpage.
+                            The src attribute contains the image URL and is mandatory. 
+                            <code>&lt;img&gt;</code> is an empty element meaning it should not have a closing tag. 
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        
+                       <p><code>&lt;img src="image.png"&gt;</code></p>
+                       <p><code>&lt;img src="image.jpeg"&gt;</code></p>
+      
+                    </div>
+
+                </div>
+
+            </section>
+<!-- --------------------------------------TABLE SECTION------------------------------------------------------ -->
+            <section class="main-section" id="tables">
+                <header><h2>Tables</h2></header>
+
+                
+                <p>Building a table in HTML requires a specific structure:</p>
+                <ul>
+                    <li>open a <code>&lt;table&gt;</code> </li>
+                    <li>add rows with <code>&lt;tr&gt;</code>  </li>
+                    <li>add regular cells with <code>&lt;td&gt;</code> or heading cells with <code>&lt;th&gt;</code></li>
+                    
+                </ul>
+
+                <p>This hierarchy is required, and all 3 elements are necessary to build a table.</p>
+
+
+                <!-- TABLE CAPTION-->
+                <div class="sub-section table-caption">
+                    <div class="sub-section-left">
+                        <h2>&lt;caption&gt; Caption Element</h2>
+
+                        <p>
+                            It defines the title of a table. 
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+
+                        <pre>
+<!-- ------------------- -->&lt;table&gt;
+<!-- ------------------- -->  &lt;caption&gt;The Beatles&lt;/caption&gt;
+<!-- ------------------- -->&lt;/table&gt;
+                        </pre>
+
+                    </div>
+                </div>
+
+
+
+                <!-- TABLE ELEMENT-->
+                <div class="sub-section table-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;table&gt; Table Element</h2>
+
+                        <p>
+                           It defines a container for tabular data.
+                           In HTML, the <code>&lt;table&gt;</code> element has content that is used to represent
+                           a two-dimensional table made of rows and columns.
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                    
+                        <pre>
+<!-- ------------------- -->&lt;table&gt;
+<!-- ------------------- -->  rows and columns will go here
+<!-- ------------------- -->&lt;/table&gt;
+                        </pre>
+                        
+                    </div>
+                </div>
+
+
+                <!-- TABLE ROW ELEMENT-->
+                <div class="sub-section table-row-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;tr&gt; Table Row Element</h2>
+
+                        <p>
+                            The table row element,<code>&lt;tr&gt;</code>, 
+                            is used to add rows to a table before adding table data and table headings.
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        
+                        <pre>
+                            <code>
+<!-- ------------------- --> &lt;table&gt;
+<!-- ------------------- -->     &lt;tr&gt;
+<!-- ------------------- -->        ...
+<!-- ------------------- -->     &lt;/tr&gt;
+<!-- ------------------- --> &lt;/table&gt;
+                            </code>
+                        </pre>
+
+                        
+                    </div>
+                </div>
+
+
+                <!-- TABLE HEAD ELEMENT-->
+                <div class="sub-section table-head-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;thead&gt; Table Head Element</h2>
+
+                        <p>
+                            The table head element,<code>&lt;thead&gt;</code>, 
+                            defines the headings of table columns encapsulated in table rows.
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        
+                        <pre>
+                            <code>
+<!-- ------------------- --> &lt;table&gt;
+<!-- ------------------- -->      &lt;thead&gt;
+<!-- ------------------- -->          &lt;tr&gt;
+<!-- ------------------- -->             &lt;th&gt;heading1&lt;/th&gt;
+<!-- ------------------- -->             &lt;th&gt;heading2&lt;/th&gt;
+<!-- ------------------- -->          &lt;/tr&gt;
+<!-- ------------------- -->      &lt;/thead&gt;
+<!-- ------------------- --> &lt;/table&gt;
+                            </code>
+                        </pre>
+       
+                    </div>
+                </div>
+
+
+                <!-- TABLE DATA ELEMENT-->
+                <div class="sub-section table-data-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;td&gt; Table Data Element</h2>
+
+                        <p>
+                            The table data element,<code>&lt;td&gt;</code>,
+                            defines a table cell and must be a direct child of a <code>&lt;tr&gt;</code>.
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre>
+                            <code>
+<!-- ------------------- -->&lt;table&gt;
+<!-- ------------------- -->    &lt;tr&gt;
+<!-- ------------------- -->        &lt;td&gt;cell one data&lt;/td&gt;
+<!-- ------------------- -->        &lt;td&gt;cell two data&lt;/td&gt;
+<!-- ------------------- -->    &lt;/tr&gt;
+<!-- ------------------- -->&lt;/table&gt;
+                            </code>
+
+                        </pre>
+                    </div>
+                </div>                
+
+            </section>
+<!-- --------------------------------------FORM SECTION------------------------------------------------------ -->
+            <section class="main-section" id="forms">
+                <header><h2>Forms</h2></header>
+
+                <p>
+                    HTML forms are used to gather input from users for a variety of reasons,
+                    from e-commerce checkouts, to contact forms, to email sign-ups, and more.
+                </p>
+
+
+                <!-- FORM ELEMENT-->
+                <div class="sub-section form-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;form&gt; Form Element</h2>
+
+                        <p>
+                            The form element,<code>&lt;form&gt;</code>,
+                            just like the way the body element houses every visible part of a webpage, that has
+                            been the way the form element serves as a container for collection of inputs from a web user.
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <p>
+                            <code>
+                                &lt;form action=&quot;&quot;&gt; &lt;/form&gt;
+                            </code>
+
+                        </p>
+                    </div>
+                </div>                
+
+                <!-- INPUT ELEMENT-->
+                <div class="sub-section input-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;input&gt; input Element</h2>
+
+                        <p>
+                            The input element,<code>&lt;input&gt;</code>, 
+                            it is a self-closing tag and uses type attribute to determine its purpose and behavior.
+
+                           
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        
+                        <pre>
+                            <code>
+<!-- ------------------- -->&lt;input type=&quot;text&quot;&gt;
+<!-- ------------------- -->&lt;input type=&quot;email&quot;&gt;
+<!-- ------------------- -->&lt;input type=&quot;password&quot;&gt;
+<!-- ------------------- -->&lt;input type=&quot;number&quot;&gt;
+
+                            </code>
+
+                        </pre>
+                        
+                    </div>
+                </div>  
+                
+                
+                <!-- TEXTAREA ELEMENT-->
+                <div class="sub-section textarea-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;textarea&gt; textarea Element</h2>
+
+                        <p>
+                            The textarea element,<code>&lt;textarea&gt;</code>, 
+                            is used when creating a text-box for multi-line input (e.g. a comment section). 
+                            The element supports the rows and cols attributes which determine the height and width, 
+                            respectively, of the element.
+                           
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <p>
+                            <code>
+                                &lt;textarea rows=&quot;10&quot; cols=&quot;30&quot; name=&quot;comment&quot;&gt;&lt;/textarea&gt;
+                            </code>
+
+                        </p>
+                    </div>
+                </div>       
+
+
+                <!-- LABEL ELEMENT-->
+                <div class="sub-section label-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;label&gt; label Element</h2>
+
+                        <p>
+                            The label element,<code>&lt;label&gt;</code>, 
+                            element provides identification for a specific &lt;input&gt; 
+                            based on matching values of the &lt;input&gt;'s id attribute and the &lt;label&gt;'s for attribute.
+                            
+                           
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre>
+                            <code>
+<!-- ------------------- -->&lt;label for=&quot;user-name&quot;&gt;Your Name&lt;/label&gt;
+<!-- ------------------- -->&lt;input type=&quot;text&quot; id=&quot;user-name&quot; name=&quot;user-name&quot;&gt;
+                            </code>
+
+                        </pre>
+                    </div>
+                </div>   
+
+
+                <!-- SELECT ELEMENT AND OPTION ELEMENT-->
+                <div class="sub-section select-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;select&gt; select Element</h2>
+
+                        <p>
+                            The select element,<code>&lt;select&gt;</code>, 
+                            is used to create a dropdown list and the list of choices is 
+                            created using the option element <code>&lt;option&gt;</code>.
+                           
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre>
+                            <code>
+<!-- ------------------- -->&lt;select&gt;
+<!-- ------------------- -->    &lt;option&gt;Option 1&lt;/option&gt;
+<!-- ------------------- -->    &lt;option&gt;Option 2&lt;/option&gt;
+<!-- ------------------- -->    &lt;option&gt;Option 3&lt;/option&gt;
+<!-- ------------------- -->&lt;/select&gt;
+                            </code>
+
+                        </pre>
+                    </div>
+                </div>   
+  
+            </section>
+
+
+<!-- --------------------------------------SEMANTIC HTML SECTION------------------------------------------------------ -->
+
+            <section class="main-section" id="semantic_html">
+                <header><h2>Semantic HTML</h2></header>
+
+                <P>
+                    The semantic HTML refers to the HTML elements that provide meaning to an HTML page rather than just presentation. 
+                    It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+                </P>
+
+
+                <!-- HEADER ELEMENT-->
+                <div class="sub-section header-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;header&gt; header Element</h2>
+
+                        <p>
+                            The header element,<code>&lt;header&gt;</code>, 
+                            should be used to contain introductory content for a page or article.
+                            It might contain things such as the title, a tagline, authorship information, etcetera.
+                           
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre>
+                            <code>
+<!-- ------------------- -->&lt;header&gt;
+<!-- ------------------- -->     &lt;h1&gt;HTML Reference&lt;/h1&gt;
+<!-- ------------------- -->&lt;/header
+                            </code>
+
+                        </pre>
+                    </div>
+                </div> 
+
+                <!-- NAV ELEMENT -->
+                <div class="sub-section nav-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;nav&gt; nav Element</h2>
+
+                        <p>
+                            The nav element,<code>&lt;nav&gt;</code>, defines a container for navigation links.
+                           
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre>
+                            <code>
+<!-- ----------------------- -->&lt;nav&gt;
+<!-- ----------------------- -->   &lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;
+<!-- ----------------------- -->   &lt;a href=&quot;/about&quot;&gt;About&lt;/a&gt;
+<!-- ----------------------- -->   &lt;a href=&quot;/contact&quot;&gt;Contact&lt;/a&gt;
+<!-- ----------------------- -->&lt;/nav&gt;
+                            </code>
+
+                        </pre>
+                    </div>
+                </div> 
+
+
+                <!-- MAIN ELEMENT -->
+                <div class="sub-section main-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;main&gt; main Element</h2>
+
+                        <p>
+                            The main element,<code>&lt;main&gt;</code>,represents the primary content of a page.
+                           
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre>
+                            <code> 
+<!-- ----------------------- -->&lt;main&gt;
+<!-- ----------------------- -->    &lt;h1&gt;My blog post&lt;/h1&gt;
+<!-- ----------------------- -->    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.&lt;/p&gt;
+<!-- ----------------------- -->    &lt;p&gt;etc.&lt;/p&gt;
+<!-- ----------------------- -->&lt;/main&gt;
+                            </code>
+
+                        </pre>
+                    </div>
+                </div> 
+
+
+                <!-- SECTION ELEMENT -->
+                <div class="sub-section section-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;section&gt; section Element</h2>
+
+                        <p>
+                            The section element,<code>&lt;section&gt;</code>,is the most nonspecific of the semantic elements 
+                            and represents a thematically-related section of a page.
+                           
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre>
+                            <code> 
+<!-- ----------------------- -->&lt;section&gt;
+<!-- ----------------------- -->    &lt;h2&gt;Section title&lt;/h2&gt;
+<!-- ----------------------- -->    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.&lt;/p&gt;
+<!-- ----------------------- -->&lt;/section&gt;
+                            </code>
+
+                        </pre>
+                    </div>
+                </div> 
+
+
+                <!-- FIGURE AND FIGURE CAPTION ELEMENT -->
+                  <div class="sub-section figure-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;figure&gt; figure Element</h2>
+
+                        <p>
+                            The figure element,<code>&lt;figure&gt;</code>, is used to contain a useful image, illustration, diagram, 
+                            code snippet, et cetera, that helps to explain the content in the text.
+                            And the figcaption element defines caption of the figure
+                           
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre>
+                            <code> 
+<!-- ----------------------- -->&lt;figure&gt;
+<!-- ----------------------- -->    &lt;img src=&quot;/images/html-reference-logo.png&quot; alt=&quot;HTML Reference logo&quot;&gt;
+<!-- ----------------------- -->    &lt;figcaption&gt;The HTML Reference logo&lt;/figcaption&gt;
+<!-- ----------------------- -->&lt;/figure&gt;
+                            </code>
+
+                        </pre>
+                    </div>
+                </div> 
+
+
+
+                <!-- FOOTER ELEMENT -->
+                <div class="sub-section figure-element">
+                    <div class="sub-section-left">
+                        <h2>&lt;footer&gt; footer Element</h2>
+
+                        <p>
+                            The footer element,<code>&lt;footer&gt;</code>, should be used to contain content about the creator or creation of a page or article.
+                            It might contain things such as publication date, authorship information, links to related content, etcetera.
+                           
+                        </p>
+
+                    </div>
+
+                    <div class="sub-section-right">
+                        <pre>
+                            <code> 
+<!-- ----------------------- -->&lt;footer&gt;
+<!-- ----------------------- -->    &lt;p&gt;Site by So and So.&lt;/p&gt;
+<!-- ----------------------- -->    &lt;p&gt;Copyright 2022&lt;/p&gt;
+<!-- ----------------------- -->&lt;/footer&gt;
+                            </code>
+
+                        </pre>
+                    </div>
+                </div>
+
+            </section>
+
+
+<!-- --------------------------------------REFERENCES SECTION------------------------------------------------------ -->
+            <section class="main-section" id="reference">
+                <header><h2>Reference</h2></header>
+                <p>Thanks to the authors of the following sites and further reading can be made using them.</p>
+
+                <ul>
+                    <li>
+                        <a href="https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet" target="_blank">Codeacademy HTML Cheatsheet</a>
+                    </li>
+
+                    <li>
+                        <a href="https://htmlreference.io/" target="_blank">HTML Reference</a>
+                    </li>
+
+                    <li>
+                        <a href="https://marksheet.io/" target="_blank">MarkSheet</a>
+                    </li>
+
+                    <li>
+                        <a href="https://htmlandcssguidebook.com/index.html" target="_blank">HTML & CSS Guidebook</a></li>
+                </ul>
+            </section>
+
+            
+                        
+                       
+        </main>
+
+        <div class="break"></div>
+
+        <footer>
+            <p>copyright malik</p>
+        </footer>
+
+      <script>
+        let navLinkItem = document.getElementsByClassName("nav-link")
+
+        let navLinkContainer = document.querySelector(".navLinksContainer");
+
+        let cancelBtn = document.getElementsByClassName("bi-x")[0];
+        let burgerBtn = document.getElementsByClassName("bi-list")[0];
+
+        burgerBtn.addEventListener("click", function(){
+            navLinkContainer.classList.toggle("showNavLinksContainer")
+            burgerBtn.style.display = "none";
+            cancelBtn.style.display = "block";
+        })
+
+        cancelBtn.addEventListener("click", function(){
+            navLinkContainer.classList.toggle("hideNavLinksContainer")
+            cancelBtn.style.display = "none";
+            burgerBtn.style.display = "block";
+           
+        })
+
+
+       
+
+
+
+    //     burgerBtn.addEventListener("click",function(){
+    //         navLinkContainer.style.right = "0";
+    //         burgerBtn.style.display = "none";
+    //         cancelBtn.style.display = "block";
+            
+    //     })
+
+    //     cancelBtn.addEventListener("click",function(){
+    //         navLinkContainer.style.right = "-100%";
+    //         burgerBtn.style.display = "block";
+    //         cancelBtn.style.display = "none";
+            
+    //     })
+
+
+
+    //    for(let j = 0; j < navLinkItem.length; j++){
+    //     navLinkItem[j].addEventListener("click",function(){
+            
+    //         navLinkContainer.style.right = "-100%";
+    //         cancelBtn.style.display = "none";
+    //         burgerBtn.style.display = "block"
+
+
+    //     })
+    //    }
+
+
+        
+
+
+
+      </script>
+       
+    </body>
+</html>
