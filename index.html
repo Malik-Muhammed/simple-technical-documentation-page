@@ -11,11 +11,10 @@
 
         <nav id="navbar">
 
-            <header>Learn HTML</header>
+            <header>
+                <h1>Learn HTML</h1>
 
-            <div class="navLinksWithBurger">
-                
-                <div class="btnContainer">
+                <div class="icon">
                     <!-- Hamburger Icon -->
                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
@@ -26,16 +25,18 @@
                         <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                     </svg>
                 </div>
+
+            </header>
             
-                <div class="navLinksContainer">
-                    <a href="#html" class="nav-link ">HTML</a>
-                    <a href="#elements_and_structure" class="nav-link">Elements and Structure</a>
-                    <a href="#tables" class="nav-link">Tables</a>
-                    <a href="#forms" class="nav-link">Forms</a>
-                    <a href="#semantic_html" class="nav-link">Semantic HTML</a>
-                    <a href="#reference" class="nav-link">Reference</a>
-                </div>
+            <div class="navLinksContainer">
+                <a href="#html" class="nav-link ">HTML</a>
+                <a href="#elements_and_structure" class="nav-link">Elements and Structure</a>
+                <a href="#tables" class="nav-link">Tables</a>
+                <a href="#forms" class="nav-link">Forms</a>
+                <a href="#semantic_html" class="nav-link">Semantic HTML</a>
+                <a href="#reference" class="nav-link">Reference</a>
             </div>
+           
 
         </nav>
 
@@ -142,19 +143,11 @@
                     </div>
 
                     <div class="sub-section-right">
-            
-                        <pre>
-                            <code>
-<!-- ------------------- -->    &lt;/p&gt
-<!-- ------------------- -->    &lt;/div&gt;
-<!-- ------------------- -->    &lt;/section&gt;
-
-
-
-                            </code>
-                        <pre>
+                        <pre><code>&lt;/p&gt;</code></pre>
+                        <pre><code>&lt;/div&gt;</code></pre>
+                        <pre><code>&lt;/section&gt;</code></pre>
                         
-                    </div>
+                     </div>
                 </div>
 
                 
@@ -197,7 +190,11 @@
                     </div>
 
                     <div class="sub-section-right">
-                        <pre><code>&lt;a href="#"&gt;MALIK MUHAMMED&lt;/a&gt;</code></pre>   
+                        <pre><code>&lt;elementName name="value"&gt;&lt;/elementName&gt;</code></pre>
+                        <pre><code>&lt;a href="#home"&gt;MALIK MUHAMMED&lt;/a&gt;</code></pre>
+                        <pre><code>&lt;a href="www.studytonight.com"&gt;studytonight&lt;/a&gt;</code></pre>
+                        <pre><code>&lt;img src=&quot;img_girl.jpg&quot;&gt;</code></pre>
+                       
                     </div>
 
                 </div>
@@ -243,13 +240,8 @@
                     </div>
 
                     <div class="sub-section-right">
-                        <p>
-                            <code>
-                                 &lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quasi.&lt;/p&gt;
-                            </code>
-                        </p>
+                      <pre><code>&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit.&lt;/p&gt;</code></pre>
                             
-                        
                     </div>
 
                 </div>
@@ -528,7 +520,10 @@
                     
                 </ul>
 
-                <p>This hierarchy is required, and all 3 elements are necessary to build a table.</p>
+                <p>
+                    This hierarchy is required, and all 3 elements are necessary 
+                    to build a table.
+                </p>
 
 
                 <!-- TABLE CAPTION-->
@@ -673,8 +668,10 @@
                 <header><h2>Forms</h2></header>
 
                 <p>
-                    HTML forms are used to gather input from users for a variety of reasons,
-                    from e-commerce checkouts, to contact forms, to email sign-ups, and more.
+                    HTML forms are used to gather input 
+                    from users for a variety of reasons,
+                    from e-commerce checkouts, to contact forms, 
+                    to email sign-ups, and more.
                 </p>
 
 
@@ -822,8 +819,11 @@
                 <header><h2>Semantic HTML</h2></header>
 
                 <P>
-                    The semantic HTML refers to the HTML elements that provide meaning to an HTML page rather than just presentation. 
-                    It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+                    The semantic HTML refers to the HTML elements 
+                    that provide meaning to an HTML page rather 
+                    than just presentation. 
+                    It makes HTML more comprehensible by better defining 
+                    the different sections and layout of web pages.
                 </P>
 
 
@@ -897,7 +897,7 @@
                             <code> 
 <!-- ----------------------- -->&lt;main&gt;
 <!-- ----------------------- -->    &lt;h1&gt;My blog post&lt;/h1&gt;
-<!-- ----------------------- -->    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.&lt;/p&gt;
+<!-- ----------------------- -->    &lt;p&gt;Lorem ipsum dolor sit amet. &lt;/p&gt;
 <!-- ----------------------- -->    &lt;p&gt;etc.&lt;/p&gt;
 <!-- ----------------------- -->&lt;/main&gt;
                             </code>
@@ -925,7 +925,7 @@
                             <code> 
 <!-- ----------------------- -->&lt;section&gt;
 <!-- ----------------------- -->    &lt;h2&gt;Section title&lt;/h2&gt;
-<!-- ----------------------- -->    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.&lt;/p&gt;
+<!-- ----------------------- -->    &lt;p&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;
 <!-- ----------------------- -->&lt;/section&gt;
                             </code>
 
@@ -1011,8 +1011,11 @@
                     </li>
 
                     <li>
-                        <a href="https://htmlandcssguidebook.com/index.html" target="_blank">HTML & CSS Guidebook</a></li>
+                        <a href="https://htmlandcssguidebook.com/index.html" target="_blank">HTML & CSS Guidebook</a>
+                    </li>
+
                 </ul>
+
             </section>
 
             
@@ -1020,71 +1023,12 @@
                        
         </main>
 
-        <div class="break"></div>
 
         <footer>
-            <p>copyright malik</p>
+            <p class="copyright">&copy;<span id="date">2022</span> Malik Muhammed</p>
         </footer>
 
-      <script>
-        let navLinkItem = document.getElementsByClassName("nav-link")
-
-        let navLinkContainer = document.querySelector(".navLinksContainer");
-
-        let cancelBtn = document.getElementsByClassName("bi-x")[0];
-        let burgerBtn = document.getElementsByClassName("bi-list")[0];
-
-        burgerBtn.addEventListener("click", function(){
-            navLinkContainer.classList.toggle("showNavLinksContainer")
-            burgerBtn.style.display = "none";
-            cancelBtn.style.display = "block";
-        })
-
-        cancelBtn.addEventListener("click", function(){
-            navLinkContainer.classList.toggle("hideNavLinksContainer")
-            cancelBtn.style.display = "none";
-            burgerBtn.style.display = "block";
-           
-        })
-
-
-       
-
-
-
-    //     burgerBtn.addEventListener("click",function(){
-    //         navLinkContainer.style.right = "0";
-    //         burgerBtn.style.display = "none";
-    //         cancelBtn.style.display = "block";
-            
-    //     })
-
-    //     cancelBtn.addEventListener("click",function(){
-    //         navLinkContainer.style.right = "-100%";
-    //         burgerBtn.style.display = "block";
-    //         cancelBtn.style.display = "none";
-            
-    //     })
-
-
-
-    //    for(let j = 0; j < navLinkItem.length; j++){
-    //     navLinkItem[j].addEventListener("click",function(){
-            
-    //         navLinkContainer.style.right = "-100%";
-    //         cancelBtn.style.display = "none";
-    //         burgerBtn.style.display = "block"
-
-
-    //     })
-    //    }
-
-
         
-
-
-
-      </script>
-       
+       <script src="script.js"></script>
     </body>
 </html>
